@@ -34,6 +34,38 @@
 }
 
 .card:hover {
-    cursor: pointer;
-    border: 2px solid rgb(255, 104, 104);
+    /* cursor: pointer; */
+    border: 2px solid #663399;
+}
+
+/* popup */
+#popupIngredient {
+    padding: 30px;
+    background-color: rgb(243, 243, 243);
+    overflow: hidden;
+    border-radius: 15px;
+    padding-bottom: 60px;
+    width: 35%;
+    margin-top: 25px;
+}
+
+#popupIngredient img {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+#popupIngredient h3 {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+#popupIngredient h5 {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+#popupIngredient p {
+    text-align: left;
+    list-style-type: square;
 }
