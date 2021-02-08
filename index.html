@@ -37,11 +37,12 @@
         <div class="container searchBox">
             <nav class="navbar navbar-light">
                 <div class="container-fluid justify-content-center">
-                    <form class="d-flex ">
+                    <div class="d-flex ">
                         <input id="searchInput" class="form-control me-2" type="search" placeholder="Search for meal"
                             aria-label="Search">
-                        <button id="searchBtn" class="btn btn-light" type="submit">Search</button>
-                    </form>
+                        <button onclick="searchMeal()" id="searchBtn" class="btn btn-light"
+                            type="submit">Search</button>
+                    </div>
                 </div>
             </nav>
         </div>
@@ -50,13 +51,8 @@
     <!-- start menu card -->
     <div class="container">
         <h1 id="resultTitle">Your Search Results</h1>
-        <div class="menuBoxs">
-            <div class="card" style="width: 18rem;">
-                <img src="images/1.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5>Vegan Salad Bowl</h5>
-                </div>
-            </div>
+        <div id="menuBoxs">
+
         </div>
     </div>
     <!-- end menu card -->
