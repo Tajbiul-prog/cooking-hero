@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.navbar-brand {
+    font-weight: 600;
+}
+
+#searchInput {
+    width: 500px;
+}
+
+#searchBtn {
+    background-color: rebeccapurple;
+    color: white;
+}
+
+.searchBox {
+    margin-top: 25px;
+}
+
+.menuBoxs {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+}
+
+#resultTitle {
+    margin-top: 25px;
+}
+
+.card:hover {
+    cursor: pointer;
+}
